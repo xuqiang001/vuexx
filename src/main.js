@@ -4,11 +4,11 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 
-// 导入自定义样式文件css
-import '@/assets/css/index.css';
-
 // 导入bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
+
+// 导入自定义样式文件css
+import '@/assets/css/index.css';
 
 Vue.config.productionTip = false;
 
